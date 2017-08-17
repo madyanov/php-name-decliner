@@ -1,0 +1,24 @@
+{
+    "name": "madyanov/name-decliner",
+    "type": "library",
+    "description": "PHP class to decline russian names.",
+    "keywords": ["russian", "names", "declension"],
+    "homepage": "https://github.com/madyanov/php-name-decliner",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Roman Madyanov",
+          "email": "romantaken@gmail.com",
+          "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.3 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
