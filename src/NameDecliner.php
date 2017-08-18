@@ -1,6 +1,6 @@
 <?php
 
-namespace Madyanov;
+namespace Madyanov\Utils;
 
 class NameDecliner
 {
@@ -252,7 +252,7 @@ class NameDecliner
         );
     }
 
-    private function splitWord(string $word)
+    private function splitWord($word)
     {
         return preg_split('//u', $word, -1, PREG_SPLIT_NO_EMPTY);
     }

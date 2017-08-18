@@ -7,9 +7,9 @@
     "license": "MIT",
     "authors": [
         {
-          "name": "Roman Madyanov",
-          "email": "romantaken@gmail.com",
-          "role": "Developer"
+            "name": "Roman Madyanov",
+            "email": "romantaken@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -19,6 +19,8 @@
         "phpunit/phpunit": "^6.3"
     },
     "autoload": {
-        "classmap": ["src/"]
+        "psr-4": {
+            "Madyanov\\Utils\\": "src/"
+        }
     }
 }

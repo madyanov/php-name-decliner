@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Madyanov\NameDecliner;
+use Madyanov\Utils\NameDecliner;
 use PHPUnit\Framework\TestCase;
 
 class NameDeclinerTest extends TestCase
