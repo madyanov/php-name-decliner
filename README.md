@@ -9,7 +9,7 @@ $ composer require madyanov/name-decliner
 ### Использование
 
 ```php
-$decliner = new Madyanov\NameDecliner('Роман');
+$decliner = new Madyanov\Utils\NameDecliner('Роман');
 print_r($decliner->applyMaleNameRules());
 ```
 
@@ -24,7 +24,7 @@ Array
 )
 ```
 
-Доступ к нужным падежам осуществляется через константы `Madyanov\NameDecliner::CASE_*`.
+Доступ к нужным падежам осуществляется через константы `Madyanov\Utils\NameDecliner::CASE_*`.
 
 ### Тестирование
 
