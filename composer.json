@@ -8,8 +8,7 @@
     "authors": [
         {
             "name": "Roman Madyanov",
-            "email": "romantaken@gmail.com",
-            "role": "Developer"
+            "email": "romantaken@gmail.com"
         }
     ],
     "require": {
